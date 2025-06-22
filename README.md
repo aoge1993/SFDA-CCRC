@@ -1,2 +1,4 @@
 # SFDA-CCRC
-code for MICCAI 2025 paper
+The official implementation of SFDA-CCRC. 
+
+The complete code is still being organized and will be released soon. Please stay tuned.
