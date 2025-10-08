@@ -20,9 +20,9 @@ python train_targetWhs.py
 
 ## Related Dataset
 
-Heart Dataset and details: We used the preprocessed dataset from Dou et al. : https://github.com/carrenD/Medical-Cross-Modality-Domain-Adaptation. 
+For the cardiac dataset, we utilized the preprocessed version provided by SIFA, which is available at their project repository: https://github.com/cchen-cc/SIFA.
 
-The data is in tfs records, It is recommended to convert to nii format or npy format.
+The data is in tfs records, It is recommended to convert to npy format and nii format.
 
 ## Data scheme
 Take the CT dataset as an example
