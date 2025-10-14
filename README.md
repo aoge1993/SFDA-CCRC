@@ -54,5 +54,19 @@ data
         ...
 ```
 
-## Acknowledgement 确认
+## Acknowledgement
 This repo benefits from [SFDA-CBMT](https://github.com/lloongx/SFDA-CBMT). Thanks for their wonderful works.
+
+## Citation
+If you find this work is helpful in your research, please cite:
+```
+@inproceedings{ma2026source,
+  title={Source-Free Domain Adaptation for Cross-Modality Cardiac Image Segmentation with Contrastive Class Relationship Consistency},
+  author={Ma, Ao and Zhu, Qingpeng and Li, Jingjing and Nielsen, Mads and Chen, Xu},
+  booktitle={Medical Image Computing and Computer-Assisted Intervention--MICCAI 2025},
+  pages={574--583},
+  year={2026},
+  publisher={Springer Nature Switzerland},
+  address={Cham}
+}
+```
