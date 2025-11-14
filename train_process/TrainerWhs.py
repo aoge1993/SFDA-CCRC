@@ -31,7 +31,8 @@ def eval(model, data_loader):
             filenames_target = sample['img_name']
             data = data.cuda()
 
-            predictions, _ = model(data)
+            dic = model(data)
+            predictions = dic['out']
             for i, name in enumerate(filenames_target):
                 sample_name, index = name.split("slice")[1].split("_")[0], int(name.split("slice")[1].split("_")[1].split('.')[0])
                 sample_dict[sample_name] = sample_dict.get(sample_name, []) + [(predictions[i].detach().cpu(), target_map[i].detach().cpu(), index)]
