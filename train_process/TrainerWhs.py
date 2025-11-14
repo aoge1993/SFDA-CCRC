@@ -164,7 +164,8 @@ class Trainer(object):
             image = sample['image'].cuda()
             target_map = sample['label'].cuda()
 
-            pred, _ = self.model(image)
+            dic = self.model(image)
+            pred = dic['out']
             loss_seg = F.cross_entropy(pred, target_map)
 
             self.running_seg_loss += loss_seg.item()

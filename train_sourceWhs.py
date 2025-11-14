@@ -90,7 +90,7 @@ from train_process import TrainerWhs
 # Custom includes
 from dataloaders import Whs_dataloader
 from dataloaders import custom_transforms as trans
-from networks.deeplabv3_old import *
+from networks.deeplabv3 import *
 
 
 here = osp.dirname(osp.abspath(__file__))

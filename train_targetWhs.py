@@ -57,7 +57,6 @@ from utils.metrics import *
 from datetime import datetime
 import pytz
 import networks.deeplabv3 as netd
-# import networks.deeplabv3_Contra as netd
 import cv2
 import torch.backends.cudnn as cudnn
 import random
